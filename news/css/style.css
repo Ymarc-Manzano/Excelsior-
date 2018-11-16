@@ -15,7 +15,7 @@ body{
 
 a{
 	text-decoration:none;
-	font-family:gotham book;
+	font-family:century gothic;
 	color:black;
 }
 
@@ -35,7 +35,7 @@ P{
 	padding:12px 20px;
 	font-size: 20px;
 	border:2px #8056CC solid;
-	font-family:gotham book;
+	font-family:century gothic;
 }
 
 .button:hover {
