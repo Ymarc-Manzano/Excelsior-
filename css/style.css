@@ -1,0 +1,329 @@
+body {
+	text-align:center;
+	font-size:30px;
+	background:#859BFF;
+}
+
+a {
+	text-decoration:none;
+}
+
+P{
+	text-indent:45px;
+	line-height:17px;
+}
+
+.cover {
+	background-image:url(../pictures/Cover1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:87px;
+	margin:0px;
+	margin-bottom:10px;
+}
+.button {
+	background-image:url(../pictures/Exclamation.jpg);
+	color:#431399;
+	padding:12px 20px;
+	font-size:20px;
+	border:2px #8056CC solid;
+	font-family:gotham book;
+}
+
+.button1 {
+	background:#859BFF; 
+	font-size:15px;
+	font-family:gotham book;
+	color:black;
+	border:2px #8056CC solid;
+	padding:6px;
+	
+}
+
+.button:hover {
+	color:white;
+	background-image:url(../pictures/Exclamation2.jpg);
+}
+
+.button1:hover {
+	background:#859BFF;
+	color:white;
+}
+
+
+#main-menu {
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	display:grid;
+	list-style:none;
+	grid-gap:40px;
+	grid-template-columns:repeat(6,1fr);
+}
+
+
+.news {
+	display:grid;
+	grid-gap:1px;
+	grid-template-columns:1fr 1fr;
+}
+
+.news-l {
+	background: #8056cc;
+	margin-bottom: 0px;
+	display: grid;
+	margin-left: 0px;
+	padding: 10px;
+}
+
+.news-r {
+	padding:3px;
+	text-align:center;
+	color:black;
+	font-size:50px;
+}
+
+.news-r p {
+	margin:2px 0 2px 0;
+	font-size:17px;
+	font-family:Century Gothic;
+	text-align:justify;
+	padding: 10px;
+}
+
+.news-r h2 {
+	text-align:center;
+	font-family:rockwell;
+	font-size:50px;
+	color:white;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.news-r h4 {
+	font-family:century gothic;
+	font-size:30px;
+	color:black;
+}
+
+
+
+
+.editorial {
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns:1fr 1fr;
+	
+}
+
+.editorial-l {
+	text-align:center;
+	color:black;
+	font-size:50px;
+}
+
+.editorial-r {
+	background: #cc9556;
+	margin-bottom: 0px;
+	display: grid;
+	margin-left: 0px;
+	padding: 10px;
+}
+
+.editorial-l p {
+	margin:2px 0 2px 0;
+	font-size:17px;
+	font-family:Century Gothic;
+	text-align:justify;
+	padding: 10px;
+}
+
+.editorial-l h2 {
+	text-align:center;
+	font-family:rockwell;
+	font-size:50px;
+	color:white;
+	text-shadow: 2px 2px 2px #000;
+}
+
+
+.editorial-l h4 {
+	font-family:century gothic;
+	text-align:center;
+	font-size:30px;
+	color:black;
+}
+
+
+
+
+.feature {
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns:1fr 1fr;
+}
+
+.feature-l {
+	background: #8056cc;
+	margin-bottom: 0px;
+	display: grid;
+	margin-left: 0px;
+	padding: 10px;
+}
+
+.feature-r {
+	text-align:center;
+	color:black;
+	font-size:50px;
+	padding:5px;
+}
+
+.feature-r p {
+	margin:2px 0 2px 0;
+	font-size:17px;
+	font-family:Century Gothic;
+	text-align:justify;
+	padding: 6px;
+}
+
+.feature-r h2 {
+	text-align:center;
+	font-family:rockwell;
+	font-size:50px;
+	color:white;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.feature-r h4 {
+	font-family:century gothic;
+	font-size:30px;
+	color:black;
+}
+
+
+.science {
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns:1fr 1fr;
+}
+
+.science-l {
+	text-align:center;
+	color:black;
+	font-size:50px;
+	padding:5px;
+}
+
+.science-r {
+	background: #cc9556;
+	margin-bottom: 0px;
+	display: grid;
+	margin-left: 0px;
+	padding: 10px;
+}
+
+.science-l p {
+	margin:2px 0 2px 0;
+	font-size:17px;
+	font-family:Century Gothic;
+	text-align:justify;
+	padding: 10px;
+}
+
+.science-l h2 {
+	text-align:center;
+	font-family:rockwell;
+	font-size:50px;
+	color:white;
+	text-shadow: 2px 2px 2px #000;
+}
+
+
+.science-l h4 {
+	font-family:century gothic;
+	text-align:center;
+	font-size:25px;
+	color:black;
+}
+
+
+
+.sports {
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns:1fr 1fr;
+}
+
+.sports-l {
+	background: #8056cc;
+	margin-bottom: 0px;
+	display: grid;
+	margin-left: 0px;
+	padding: 10px;
+}
+
+.sports-r {
+	text-align:center;
+	color:black;
+	font-size:50px;
+	padding:5px;
+}
+
+.sports-r p {
+	margin:2px 0 2px 0;
+	font-size:17px;
+	font-family:Century Gothic;
+	text-align:justify;
+	padding:10px;
+}
+
+.sports-r h2 {
+	text-align:center;
+	font-family:rockwell;
+	font-size:50px;
+	color:white;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.sports-r h4 {
+	font-family:century gothic;
+	font-size:30px;
+	color:black;
+}
+
+
+
+.footer{
+	padding:50px;
+	background-image:url(../pictures/Footer.jpg);
+}
+
+.zero {
+	padding:5px;
+	margin-top:10px;
+	background:#431399;
+}
+
+.one {
+	padding:5px;
+	background:#431399;
+}
+
+
+.two {
+	padding:5px;
+	background:#431399;
+}
+
+.three {
+	padding:5px;
+	background:#431399;
+}
+.four {
+	padding:5px;
+	background:#431399;
+}
+.five {
+	padding:5px;
+	background:#431399;
+}
+

@@ -1,0 +1,176 @@
+body{
+	background:#859BFF;
+}
+
+.cover{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../Photos/Cover1.jpg);
+	font-family:Rockwell;
+	font-size:35px;
+	color:#859BFF;
+	padding: 87px;
+}
+
+
+a{
+	text-decoration:none;
+	font-family:gotham book;
+	color:black;
+}
+
+P{
+	text-indent:45px;
+	line-height:17px;
+}
+
+.main-header{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.button{
+	background-image: url(../Photos/Exclamation.jpg);
+	color:#431399;
+	padding:12px 20px;
+	font-size: 20px;
+	border:2px #8056CC solid;
+	font-family:gotham book;
+}
+
+.button:hover {
+	background-image: url(../Photos/Exclamation2.jpg);
+	color:white;
+}
+
+#main-menu {
+	margin:0px;
+	padding:0px;
+	display:grid;
+	text-align:center;
+	list-style:none;
+	grid-gap:40px;
+	grid-template-columns:repeat(6,1fr);
+}
+
+.main-article {
+	margin:0px;
+	display:grid;
+	grid-gap:0px;
+	grid-template-columns:1fr 1fr;
+	margin-bottom: 0px;
+}
+
+.main-article-left {
+	background: #431399;
+	margin-bottom: 0px;
+	display: grid;
+	margin-left: 0px;
+	padding: 10px;
+}
+
+.main-article-right {
+	font-size:15px;
+	text-align:justify;
+	font-family:century gothic;
+	background: #859BFF;
+	padding: 6px;
+	background-color: #FFEBC5;
+}
+
+#title1 {
+	color: black;
+}
+
+.space1 {
+	padding:5px;
+	background:#CC9556;
+	margin-bottom: 0px;
+}
+.second-article {
+	margin:5px;
+	display:grid;
+	grid-gap:12px;
+	grid-template-columns:1fr 1fr;
+}
+
+.second-article-right {
+	margin-bottom: 0px;
+	display: grid;
+	grid-gap:0px;
+	grid-template-columns:1fr 1fr;
+	padding:10px;
+	background:#FFEBC5;
+}
+
+.second-article-left {
+	font-size:15px;
+	text-align:justify;
+	font-family:century gothic;
+	padding: 3px;
+}
+
+.second-article-continued {
+	font-size:15px;
+	text-align:justify;
+	font-family:century gothic;
+	padding:1px;
+}
+
+#title2 {
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+.space2 {
+	padding:5px;
+	background:#CC9556;
+	margin-bottom: 0px;
+}
+
+.third-article {
+	margin:0px;
+	display:grid;
+	grid-gap:0px;
+	grid-template-columns:1fr 2fr;
+	
+}
+
+.third-article-left {
+	margin-bottom: 0px;
+	display: grid;
+	grid-gap:0px;
+	grid-template-columns:1fr 1fr;
+	margin-left: 0px;
+	padding: 10px;
+	background:#431399;
+}
+
+.third-article-right {
+	font-size:15px;
+	text-align:justify;
+	font-family:century gothic;
+	padding: 3px;
+	background-color: #FFEBC5;
+	
+}
+
+.third-article-continued {
+	font-size:15px;
+	text-align:justify;
+	padding-bottom:10px;
+	font-family:century gothic;
+	padding:1px;
+	background-color: #FFEBC5;
+}
+
+#title3 {
+	color: #431399;
+}
+
+.footer {
+	background-image: url(../Photos/Footer.jpg);
+	padding: 50px;
+}
+	
+	
