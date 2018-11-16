@@ -11,7 +11,7 @@ body{
 
 a{
 	text-decoration:none;
-	font-family:gotham book;
+	font-family:century gothic;
 	color:black;
 }
 
@@ -26,7 +26,7 @@ a{
 	padding:12px 20px;
 	font-size: 20px;
 	border:2px #8056CC solid;
-	font-family:gotham book;
+	font-family:century gothic;
 }
 .button:hover {
 	background-image:url(../images/Exclamation2.jpg);
@@ -46,7 +46,7 @@ a{
 .main{
 	background:#8056cc;
 	color:white;
-	font-family:gotham book;
+	font-family:century gothic;
 	padding:20px;
 }
 
